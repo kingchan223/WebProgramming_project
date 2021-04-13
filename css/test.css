@@ -1,0 +1,61 @@
+@keyframes moving{
+    0%{
+        position:absolute;
+        left:10px;
+    }
+    10%{
+        position:absolute;
+        left:100px;
+    }
+    20%{
+        position:absolute;
+        left:200px;
+    }
+    30%{
+        position:absolute;
+        left:300px;
+    }
+    40%{
+        position:absolute;
+        left:400px;
+    }
+    40%{
+        position:absolute;
+        left:500px;
+    }
+    50%{
+        position:absolute;
+        left:600px;
+    }
+    60%{
+        position:absolute;
+        left:700px;
+    }
+    70%{
+        position:absolute;
+        left:800px;
+    }
+    80%{
+        position:absolute;
+        left:900px;
+    }
+    90%{
+        position:absolute;
+        left:1000px;
+    }
+    100%{
+        position:absolute;
+        left:1100px;
+    }
+}
+
+div{
+    animation: moving 10s linear 0s infinite alternate;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-color:purple;
+}
+a{
+    text-decoration: none;
+}
